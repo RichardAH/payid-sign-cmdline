@@ -2,7 +2,7 @@
 
   
 ## What?
-See [enter link description here](https://github.com/codetsunami/payid-sign)
+See [PayID-Sign](https://github.com/codetsunami/payid-sign)
   
 ## How?
 ```
