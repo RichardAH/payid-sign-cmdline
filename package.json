@@ -1,0 +1,24 @@
+{
+  "name": "payid-sign-cmdline",
+  "version": "1.0.1",
+  "description": "Cmdline utility for Signing extensions for PayID",
+  "main": "payid-sign-cmdline.js",
+  "dependencies": {
+    "payid-sign": ">= 1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codetsunami/payid-sign-cmdline.git"
+  },
+  "keywords": [
+    "xrp",
+    "ripple",
+    "payid"
+  ],
+  "author": "Richard Holland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codetsunami/payid-sign-cmdline/issues"
+  },
+  "homepage": "https://github.com/codetsunami/payid-sign-cmdline#readme"
+}
