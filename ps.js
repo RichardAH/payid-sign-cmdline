@@ -2,8 +2,9 @@ args = process.argv.slice(2)
 
 function print_help_and_exit() {
     console.log("Usage... ")
-    console.log("Sign:    node ps.js -sign <pay$id.com> <xrpl|btc|etc> <mainnet|testnet> <private_key_hex|xrpl_family_seed>")
-    console.log("Verify:  node ps.js -verify <pay$id.com> <json_payload>")
+    console.log("Sign:    node ps.js -sign '<pay$id.com>' <xrpl|btc|etc> <mainnet|testnet> <private_key_hex|xrpl_family_seed>")
+    console.log("Verify:  node ps.js -verify '<pay$id.com>' <json_payload>")
+    console.log("NOTE: Don't forget to use single quotes around payid because $ will be swallowed by your shell!")
     process.exit(1)
 }
 
